@@ -1,0 +1,220 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button, a, input {
+	outline: none;
+}
+.quitarContenedor {
+	display: none;
+}
+i.quitarContenedor {
+	display: none;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.listStyle-none {
+	list-style: none;
+	padding: 0;
+}
+.fx {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+}
+.eliminarSeleccion {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/* INICIO BOTONES */
+
+	/* INICIO COLOR FONDOS CONTENEDORES */
+.fondo-primary {
+	background: #F0F0F0;
+}
+.fondo-secondary {
+	background: #ffffff;
+}
+.fondo-dark {
+	background: #222222;
+}
+/* FIN COLOR FONDOS CONTENEDORES */
+
+
+	/* INICIO BOTONES FLOTANTES */
+.btn-flotante-br {
+	display: scroll;
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	z-index: 1000;
+}
+.btn-flotante-br-absolute {
+	display: absolute;
+	top: 1306.6000061035156;
+	left: 1281.6500244140625;
+}
+/* FIN BOTONES FLOTANTES */
+
+/* FIN BOTONES */
+
+
+
+
+
+/* INICIO COLOR LETRA BOTONES */
+.btn-letter-primary {
+	color: black;
+	background: transparent;
+}
+.btn-letter-primary:hover {
+	color: orange;
+}
+.btn-letter-secondary {
+	color: #ffffff;
+	background: transparent;
+}
+.btn-letter-secondary:hover {
+	color: orange;
+}
+/* FIN COLOR LETRA BOTONES */
+
+
+
+
+
+/* INICIO COLOR LETRA */
+.color-default {
+	color: #000000;
+}
+.color-gray {
+	color: #777;
+}
+.color-light {
+	color: #ffffff;
+}
+/* FIN COLOR LETRA */
+
+
+
+
+
+/* INICIO BORDERS */
+.border-bottom-primary {
+	border-bottom: 1px solid #DDDDDD;
+}
+.border-blr-primary {
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.border-all-primary {
+	border: 1px solid #DDDDDD;
+}
+/* FIN BORDERS */
+
+
+
+
+
+/* INICIO SLIDER */
+#sliderIndex {
+	width: 100%;
+	height: 700px;
+}
+/* FIN SLIDER */
+
+
+
+
+
+/* INICIO FUENTES */
+.fuente-lato {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+}
+.fuente-montserrat {
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+/* FIN FUENTES */
+
+
+
+/* INICIO IMAGENES */
+img[data-from="card"] {
+	max-height: 300px;
+}
+img[data-from="tienda"] {
+	min-height: 100px;
+	max-height: 150px;
+}
+/* FIN IMAGENES */
+
+
+
+#map {
+	height: 500px;
+}
+#headerListaProductos {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.campoDescripcion {
+	min-height: 50px;
+	max-height: 100px;
+}
+#tabs {
+}
+ul#menuAdmin h4[data-tipo="submenu-admin"] {
+	font-weight: 325;
+	font-size: 24px;
+}
+
+/* INICIO MEDIA */
+@media(max-width: 768px) {
+#sliderHeader {
+	height: auto;
+}
+}
+/* FIN MEDIA */
+
+
+.ui-tabs-vertical {
+	width: 55em;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+	padding: .2em .1em .2em .2em;
+	float: left;
+	width: 12em;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	border-right-width: 0 !important;
+	margin: 0 -1px .2em 0;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: .1em;
+	border-right-width: 1px;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+	padding: 1em;
+	float: right;
+	width: 40em;
+}

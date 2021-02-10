@@ -1,0 +1,40 @@
+.botonBaseHeader{
+	
+	font-size: 17px;
+	text-decoration: none;
+
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  	height: 100%;
+
+  	font-family: "Sans Serif 7 Bold";
+  	
+  	letter-spacing: 1px;
+
+  	border-radius: 10px;
+}
+
+.botonBaseHeader:hover{
+	
+	background-color: #294556;
+}
+
+.botonBaseHeader:active{
+
+	background-color: #1b2d38;
+}
+
+.botonHeader{
+
+	flex-basis: 100%;
+}
+
+#submit{
+
+	margin-top: 5px;
+	padding: 0px 10px 0px 10px;
+}
